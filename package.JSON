@@ -1,11 +1,14 @@
 {
-  "name": "discord-bot",
+  "name": "collab-land-bot",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.js",                  // ← change to your actual entry file name
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js"           // ← Railway needs this!
   },
   "dependencies": {
     "discord.js": "^14.15.3"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
