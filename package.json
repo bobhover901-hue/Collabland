@@ -1,0 +1,15 @@
+{
+  "name": "collab-land-bot",
+  "version": "1.0.0",
+  "description": "Collab.Land style verification bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
